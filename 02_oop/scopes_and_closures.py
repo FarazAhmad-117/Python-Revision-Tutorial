@@ -107,6 +107,38 @@
 # print(x)
 
 
+######################################################
+
+# CLOSURE -> NOT ONLY GOES DEFINATION BUT ALSO ALL VARIABLES
+
+# x =99
+
+# def fun():
+#     x = 88
+#     def f2():
+#         print(x)
+#     return f2
+
+# res = fun()
+
+# print(x)
+# res()
+
+
+# def f1(num):
+#     def f2(x):
+#         print(x ** num)
+#     return f2
+
+# pow2 = f1(2)  # Making a function that gives power of 2
+# pow3 = f1(3)
+
+# pow2(3)
+# pow3(3)
+
+# ALSO KNOWN AS FACTORY FUNCTIONS  -->> MOSTLY USED in DJango
+
+######################################################################3
 
 
 
