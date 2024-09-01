@@ -61,4 +61,35 @@
 # print_name_age(name="Faraz Ahmad", age=34)
 
 
-# Questions 3:
+# Questions 3: Make a caching decorator
+
+# import time
+
+
+# def cache(func):
+#     cache_value = {}
+#     print(cache_value)
+
+#     def wrapper(*args):
+#         print(cache_value)
+#         if args in cache_value:
+#             return cache_value[args]
+#         result = func(*args)
+#         cache_value[args] = result
+#         return result
+
+#     return wrapper
+
+
+# @cache
+# def long_running_fun(a, b):
+#     time.sleep(4)
+#     print(f"Adding {a} and {b}")
+#     return a + b
+
+
+# print(long_running_fun(2, 3))
+# print(long_running_fun(3, 5))
+# print(long_running_fun(1, 2))
+# print(long_running_fun(2, 3))
+# print(long_running_fun(5, 3))
