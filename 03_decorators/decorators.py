@@ -46,7 +46,7 @@
 #     def wrapper(*args, **kwargs):
 #         print(f"Funtion name is {func.__name__}")
 #         print(f"Args are >> {', '.join(str(arg) for arg in args)}")
-#         print(f"KWArgs are >> {kwargs}")
+#         print(f"KWArgs are >> {', '.join(f"{k} : {v}" for k,v in kwargs.items())}")
 #         result = func(*args, **kwargs)
 #         return result
 
@@ -58,7 +58,7 @@
 #     print(f"{name} is {age} years old !")
 
 
-# print_name_age("Faraz Ahmad", 34)
+# print_name_age(name="Faraz Ahmad", age=34)
 
 
 # Questions 3:
