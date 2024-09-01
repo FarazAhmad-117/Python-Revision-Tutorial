@@ -42,12 +42,23 @@
 #     return wrapper
 
 
+# def debug(func):
+#     def wrapper(*args, **kwargs):
+#         print(f"Funtion name is {func.__name__}")
+#         print(f"Args are >> {', '.join(str(arg) for arg in args)}")
+#         print(f"KWArgs are >> {kwargs}")
+#         result = func(*args, **kwargs)
+#         return result
+
+#     return wrapper
+
+
 # @debug
 # def print_name_age(name, age):
 #     print(f"{name} is {age} years old !")
 
 
-# print_name_age("Faraz Ahmad", age=34)
+# print_name_age("Faraz Ahmad", 34)
 
 
 # Questions 3:
